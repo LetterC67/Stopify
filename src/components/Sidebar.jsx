@@ -42,7 +42,7 @@ const Sidebar = () => {
         <div className={`absolute top-0 h-screen w-2/3 
         bg-gradient-to-tl from-white/10 to-[#202020] backdrop-blur-lg z-10 p-6 md:hidden
         smooth-transition ${mobileMenuOpen ? 'left-0' : '-left-full'}`}>
-        <img src="./src/assets/image/Black and Orange Simple Music Logo.png" alt="logo" className="w-full h-14 object-contain" />
+        <img src="./src/assets/image/logo.png" alt="logo" className="w-full h-14 object-contain" />
         < NavLinks handleCLick={() => setMobileMenuOpen(false) } />
       </div>
      
